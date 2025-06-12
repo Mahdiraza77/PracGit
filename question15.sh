@@ -1,4 +1,8 @@
-git fetch origin branch1
+# Fetch all remote branches
+git fetch origin
+
+# Make sure you're on the main branch
 git checkout main
-git merge branch1
-# Resolve conflicts manually if needed
+
+# Merge branch1 into main
+git merge origin/branch1
